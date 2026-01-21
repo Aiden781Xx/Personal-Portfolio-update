@@ -1,13 +1,5 @@
 import React, { useEffect } from 'react';
-import HeroSection from '../components/HeroSection';
-import AboutSection from '../components/AboutSection';
-import WorkExperience from '../components/WorkExperience';
-import Projects from '../components/Projects';
-import Achievements from '../components/Achievements';
-import ContactSection from '../components/ContactSection';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import TechStack from '../components/TechStack';
+import Portfolio from '../components/Portfolio';
 
 const Index: React.FC = () => {
   // Create an array of directories we need to ensure exist
@@ -42,15 +34,7 @@ const Index: React.FC = () => {
 
   return (
     <div className="bg-white dark:bg-zinc-950 text-gray-900 dark:text-gray-100 min-h-screen">
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <TechStack />
-      <WorkExperience />
-      <Projects />
-      <Achievements />
-      <ContactSection />
-      <Footer />
+      <Portfolio />
     </div>
   );
 };

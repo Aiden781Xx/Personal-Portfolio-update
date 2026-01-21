@@ -69,8 +69,8 @@ const HeroSection: React.FC = () => {
             className="text-lg text-gray-300 max-w-2xl"
             variants={fadeIn('up', 'tween', 0.4, 1)}
           >
-            Specialized in MERN Stack Development with expertise in building scalable web applications
-            and secure backend systems.
+            Full-stack developer with 1+ year of experience building scalable MERN applications and RESTful
+            APIs. Proven track record of optimizing API performance and managing production systems handling 10K+ users.
           </motion.p>
           
           <motion.div 

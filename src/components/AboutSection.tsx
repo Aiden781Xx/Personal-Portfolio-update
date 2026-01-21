@@ -49,6 +49,15 @@ const AboutSection: React.FC = () => {
           ></motion.div>
         </div>
 
+        <motion.div className="mb-8 max-w-3xl mx-auto text-center" variants={fadeIn('up', 'tween', 0.2, 1)}>
+          <p className="text-gray-600 dark:text-gray-300">
+            Full-stack developer with 1+ year of experience building scalable MERN applications and
+            RESTful APIs. Experienced in optimizing API performance, implementing secure authentication
+            (JWT, RBAC), and deploying production systems. Skilled in backend engineering and frontend
+            development with a strong problem-solving background.
+          </p>
+        </motion.div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Education Section */}
           <motion.div
